@@ -1,11 +1,11 @@
 package gui;
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Date;
-import java.util.Random;
+        import javax.swing.*;
+        import java.awt.*;
+        import java.awt.event.ActionEvent;
+        import java.awt.event.ActionListener;
+        import java.util.Date;
+        import java.util.Random;
 
 public class MyFrameDate extends JFrame {
     JLabel dateLabel,randomPickLabel,resultLable;
@@ -87,3 +87,4 @@ public class MyFrameDate extends JFrame {
         resultLable.setText(String.valueOf(result));
     }
 }
+
